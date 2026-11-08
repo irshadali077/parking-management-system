@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <linearGradient id="bayGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7C5CFC" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#7C5CFC" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="carBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F2630"/>
+      <stop offset="100%" stop-color="#151A20"/>
+    </linearGradient>
+  </defs>
+  <!-- Parking Bay Dashed Boundary -->
+  <path d="M25 35 L25 95 M95 35 L95 95" stroke="#7C5CFC" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" opacity="0.6"/>
+  <rect x="25" y="35" width="70" height="60" fill="url(#bayGlow)" rx="6"/>
+  <!-- Sensor Node -->
+  <circle cx="60" cy="24" r="5" fill="#32D583" opacity="0.9"/>
+  <circle cx="60" cy="24" r="10" stroke="#32D583" stroke-width="1" stroke-dasharray="2 2" opacity="0.4"/>
+  <!-- Minimalist Car Silhouette -->
+  <path d="M42 76 L44 63 C45 57 49 53 55 53 L65 53 C71 53 75 57 76 63 L78 76 C79 78 77 80 75 80 L45 80 C43 80 41 78 42 76 Z" fill="url(#carBody)" stroke="rgba(255,255,255,0.1)" stroke-width="1.5"/>
+  <!-- Windows -->
+  <path d="M48 63 L51 56 L69 56 L72 63 Z" fill="#11151A" stroke="rgba(255,255,255,0.08)"/>
+  <!-- Wheels -->
+  <circle cx="46" cy="80" r="4.5" fill="#0B0D10" stroke="#7C5CFC" stroke-width="1.5"/>
+  <circle cx="74" cy="80" r="4.5" fill="#0B0D10" stroke="#7C5CFC" stroke-width="1.5"/>
+  <!-- Headlights -->
+  <rect x="42" y="72" width="4" height="2" rx="1" fill="#FEC84B" opacity="0.8"/>
+  <rect x="74" y="72" width="4" height="2" rx="1" fill="#FEC84B" opacity="0.8"/>
+</svg>
